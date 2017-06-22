@@ -4,6 +4,7 @@ fi
 
 set -e
 
+apt-get install zlib1g-dev 
 apt-get install -y ghc cabal-install
 cabal update && cabal install idris
 
